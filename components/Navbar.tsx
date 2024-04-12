@@ -12,8 +12,8 @@ interface NavItem {
 
 const navLinks: NavItem[] = [
   { href: "/", label: "Home" },
-  { href: "/product", label: "Product" },
   { href: "/about", label: "About Us" },
+  { href: "/agenda", label: "Our Agenda" },
 ];
 
 const Navbar: React.FC = () => {
@@ -28,13 +28,13 @@ const Navbar: React.FC = () => {
       initial={{ opacity: 0, y: -30 }}
       animate={controls}
       transition={{ duration: 0.8, delay: 0.4 }}
-      className="hidden md:block bg-slate-50"
+      className="hidden md:block "
     >
       <div className="w-[95%] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Logo />
-            <span className="ml-4 font-Logo text-[30px]">OpenPolticia</span>
+            <span className="ml-2 mt-4 font-Logo text-[30px]">B L P</span>
           </div>
           <div className="hidden md:block flex-shrink-0 ">
             <div className="ml-16 flex items-center justify-center space-x-8 ">
@@ -44,16 +44,13 @@ const Navbar: React.FC = () => {
             </div>
           </div>
           <div className="flex justify-center space-x-2 ml-2">
-            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500  dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white text-black hover:text-black/60 dark:bg-gray-900 rounded-md ">
-                Log in
-              </span>
-            </button>
-            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-black/90   hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-              <span className="relative px-5 py-2.5 transition-all ease-in duration-[120] bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                Sign Up
-              </span>
-            </button>
+          
+          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+  Join us
+</button>
+
+
+
           </div>
         </div>
       </div>

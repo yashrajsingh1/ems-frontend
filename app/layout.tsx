@@ -1,14 +1,15 @@
-import "styles/globals.css";
+import "../styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "OpenPolitica",
-  description:
-    "OpenPolitica, a burgeoning non-profit organization, Our mission is to revolutionize the way citizens engage with policymaking through PolicyWeb, our innovative AI-powered platform.",
+  title: "Baharatiya Liberal Party | Home of Reform and Good Governance",
+
+
 };
 
 export default function RootLayout({
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );

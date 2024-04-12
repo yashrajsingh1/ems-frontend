@@ -1,11 +1,12 @@
 import Image from "next/image";
+import logo from "../public/logo.png"
 
 const Logo = () => {
   return (
-    <div className="flex-shrink-0 relative w-8 h-8">
+    <div className="flex-shrink-0 relative w-[6rem] h-[6rem]  mt-6">
       <Image
         fill
-        src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+        src={logo}
         alt="Workflow"
       />
     </div>
