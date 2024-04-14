@@ -15,12 +15,11 @@ export default function AboutUs() {
               Bharatiya Liberal Party is a political party founded in 2023 with a national vision and a focus on Delhi state. Our mission is to bring about positive change in India, particularly for the people of Delhi.
             </p>
             <p className="text-gray-700 mb-4">
-              Our party slogan, "<span className="font-bold">दिल्ली पुकारे दिल से वक़्त है बदलाव का….</span>", reflects our unwavering dedication to addressing the pressing issues faced by the people of Delhi.
+              Our party slogan, &ldquo;दिल्ली पुकारे दिल से वक़्त है बदलाव का&hellip;&rdquo;, reflects our unwavering dedication to addressing the pressing issues faced by the people of Delhi.
             </p>
             <p className="text-gray-700 mb-4">
               To <span className="font-bold">join our movement</span> and stay updated, connect with us on{' '}
-              <a href="https://linktr.ee/blparty" className="text-blue-500 font-bold">social media</a>
-              .
+              <a href="https://linktr.ee/blparty" className="text-blue-500 font-bold">social media</a>.
             </p>
             <p className="text-gray-700">
               Contact us today: <br />
@@ -32,10 +31,10 @@ export default function AboutUs() {
           <section className="p-8 mb-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Agenda</h2>
             <p className="text-gray-700 mb-4">
-              "<span className="font-bold">भारतीय लिबरल पार्टी</span>" is committed to bringing comprehensive reforms to Delhi. We aim to address a wide range of issues including corruption, inadequate infrastructure, and insufficient public services.
+              &ldquo;भारतीय लिबरल पार्टी&rdquo; is committed to bringing comprehensive reforms to Delhi. We aim to address a wide range of issues including corruption, inadequate infrastructure, and insufficient public services.
             </p>
             <p className="text-gray-700 mb-4">
-              Our party's primary objective is to establish a <span className="font-bold">corruption-free</span> and <span className="font-bold">transparent</span> governance system that prioritizes the welfare of all citizens.
+              Our party primary objective is to establish a <span className="font-bold">corruption-free</span> and <span className="font-bold">transparent</span> governance system that prioritizes the welfare of all citizens.
             </p>
             <p className="text-gray-700 mb-4">
               As a political leader, I am dedicated to implementing policies that promote <span className="font-bold">social justice</span>, <span className="font-bold">economic prosperity</span>, and <span className="font-bold">environmental sustainability</span>.
