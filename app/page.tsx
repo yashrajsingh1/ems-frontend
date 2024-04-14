@@ -12,7 +12,7 @@ export default function Home() {
         <div className="my-12">
           <h1 className="text-3xl font-bold text-center mb-6">Why Create Another Political Party?</h1>
           <p className="text-lg">
-            Despite India's boast of over 3000 political entities, a genuine demand for a new, transformative political force persists. Existing parties, akin to organized gangs, predominantly seek power by dividing the populace. They obscure the 'Sahi Paksh'—the right path—favoring endless debates over constructiveness.
+            Despite India&apos;s boast of over 3000 political entities, a genuine demand for a new, transformative political force persists. Existing parties, akin to organized gangs, predominantly seek power by dividing the populace. They obscure the &apos;Sahi Paksh&apos;&mdash;the right path&mdash;favoring endless debates over constructiveness.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8">Core Issues</h2>
@@ -22,12 +22,12 @@ export default function Home() {
 
           <h2 className="text-2xl font-semibold mt-8">Vision for Change</h2>
           <p className="mt-4">
-            The Bharatiya Liberal Party (BLP) proposes a radical overhaul of the system—'Vyastha Parivartan'—targeting reforms at the electoral, judicial, and administrative levels to cultivate a truly democratic environment where governance is transparent, accountable, and inclusive.
+            The Bharatiya Liberal Party (BLP) proposes a radical overhaul of the system&mdash;&apos;Vyastha Parivartan&apos;&mdash;targeting reforms at the electoral, judicial, and administrative levels to cultivate a truly democratic environment where governance is transparent, accountable, and inclusive.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8">Our Strategy</h2>
           <p className="mt-4">
-            Unique to BLP, the President and National Council will not contest elections, ensuring focus on long-term goals rather than electoral gains. Candidate selection will be uniquely democratic through Primary elections where party members and the public can vote, promoting a 'Lok Umeedwar / Public Candidate' system.
+            Unique to BLP, the President and National Council will not contest elections, ensuring focus on long-term goals rather than electoral gains. Candidate selection will be uniquely democratic through Primary elections where party members and the public can vote, promoting a &apos;Lok Umeedwar / Public Candidate&apos; system.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8">Proposed Reforms</h2>
@@ -36,8 +36,8 @@ export default function Home() {
             <li>Introduction of NOTA as a candidate to force re-elections if it gains the majority, ensuring only worthy candidates are elected.</li>
             <li>Make all political parties subject to the Right to Information Act.</li>
             <li>Discontinue electoral bonds, enhancing transparency in political funding.</li>
-            <li>Implement a 'Right to Recall' for non-performing elected representatives.</li>
-            <li>Establish 'One Nation, One Election' to reduce the perpetual electoral noise and expenditure.</li>
+            <li>Implement a &apos;Right to Recall&apos; for non-performing elected representatives.</li>
+            <li>Establish &apos;One Nation, One Election&apos; to reduce the perpetual electoral noise and expenditure.</li>
           </ul>
 
           <h2 className="text-2xl font-semibold mt-8">Commitment to National Issues</h2>
