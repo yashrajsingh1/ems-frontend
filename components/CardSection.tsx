@@ -1,49 +1,43 @@
 "use client"
 import { HoverEffect } from "./ui/card-hover-effect";
 
-
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-5xl mx-auto px-8 h-screen">
       <HoverEffect items={projects} />
     </div>
   );
 }
+
 export const projects = [
   {
-    title: "Stripe",
-    description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+    title: "Vyastha Parivartan",
+    description: "Commitment to systemic overhaul to ensure real democracy with transparency, accountability, and public involvement in governance.",
+    link: "#"  // Placeholder link added
   },
   {
-    title: "Netflix",
-    description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+    title: "Good Governance",
+    description: "Promoting smart economic policies, effective administration, and a corruption-free environment to achieve national prosperity.",
+    link: "#"
   },
   {
-    title: "Google",
-    description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+    title: "Judicial Reforms",
+    description: "Implementing reforms to make the judiciary more efficient and accessible, ensuring justice is timely and impartial.",
+    link: "#"
   },
   {
-    title: "Meta",
-    description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+    title: "Electoral Integrity",
+    description: "Advocating for reforms like Right to Recall, making NOTA a viable option, and ensuring fair and transparent election processes.",
+    link: "#"
   },
   {
-    title: "Amazon",
-    description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+    title: "Decentralized Governance",
+    description: "Promoting a model of Swarajya to empower local governments and enhance community participation in the political process.",
+    link: "#"
   },
   {
-    title: "Microsoft",
-    description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+    title: "Nationalism and Cultural Integrity",
+    description: "Fostering a sense of national unity that respects the diverse cultural heritage of India, inspired by Sanatan Dharma.",
+    link: "#"
   },
 ];

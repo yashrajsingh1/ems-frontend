@@ -34,7 +34,8 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Logo />
-            <span className="ml-2 mt-4 font-Logo text-[30px]">B L P</span>
+            <span className="mt-4 font-Poppins  text-3xl">Bharatiya Liberal Party</span>
+
           </div>
           <div className="hidden md:block flex-shrink-0 ">
             <div className="ml-16 flex items-center justify-center space-x-8 ">

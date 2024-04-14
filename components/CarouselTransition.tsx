@@ -1,23 +1,34 @@
-import { Carousel } from "@material-tailwind/react";
- 
-export function CarouselTransition() {
-  return (
-    <Carousel transition={{ duration: 2 }} className="rounded-xl h-[40rem] mt-[2rem]">
-      <img
-        src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-        alt="image 1"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-        alt="image 2"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-        alt="image 3"
-        className="h-full w-full object-cover"
-      />
-    </Carousel>
-  );
+import Image from 'next/image';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+
+function CarouselTransition() {
+    return (
+        <Carousel
+            showArrows={true}
+            autoPlay={true}
+            interval={2000}
+            infiniteLoop={true}
+            emulateTouch={true}
+            showThumbs={false}
+            className="w-full h-auto mt-[1rem] p-[1rem] rounded-sm"
+        >
+            {[
+                "/DJI_0337.JPG",  // Changed from "public/DJI_0337.JPG"
+                "/IMG_20170329_221158.jpg",  // Changed from "public/IMG_20170329_221158.jpg"
+                "/nang.jpg"  // Changed from "public/nang.jpg"
+            ].map((src, index) => (
+                <div key={index} className="relative w-full" style={{ height: '500px' }}>
+                    <Image 
+                        src={src}
+                        alt={`image ${index + 1}`}
+                        fill
+                        style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                    />
+                </div>
+            ))}
+        </Carousel>
+    );
 }
+
+export default CarouselTransition;
